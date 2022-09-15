@@ -1,0 +1,13 @@
+.game-board{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: fit-content;
+
+}
+.field{
+    border: 1px solid;  
+    height: 80px;
+    width: 80px; 
+}
